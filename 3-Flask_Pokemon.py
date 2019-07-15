@@ -137,10 +137,10 @@ def hasil():
 
                 return render_template('hasil.html', a1=name1, a2=name2, zz=lis,  e=foto2, f=foto1, p=hasilpred, prob=maxproba)
 
-        except():
+        except:
             return redirect(url_for('error'))
 
-    except():
+    except:
         return redirect(url_for('error'))
 
 
